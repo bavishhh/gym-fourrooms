@@ -8,6 +8,6 @@ The agent and the target are randomly initialized at the start of each episode, 
 # Usage
 
 ```python
-import gym
-gym.make('FourRooms-v0')
+import gymnasium as gym
+gym.make('FourRooms-v0', render_mode="human")
 ```
